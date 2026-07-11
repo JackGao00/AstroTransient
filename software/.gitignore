@@ -4,7 +4,7 @@ __pycache__/
 .ipynb_checkpoints/
 .venv/
 venv/
-data/raw/*
+data/raw/processed/*
 data/processed/*
 models/*
 !models/*.pkl
@@ -16,3 +16,8 @@ models/*
 .env
 *.log
 .DS_Store
+
+
+# Allow PLAsTiCC train/val data, block test files
+!data/raw/plasticc/data/train-*.parquet
+!data/raw/plasticc/data/validation-*.parquet
