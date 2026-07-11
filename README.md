@@ -61,3 +61,66 @@ Developed with assistance from DeepSeek.
 ## License
 
 MIT
+
+
+---
+
+## 中文
+
+AstroTransient 是一个基于梯度提升决策树（XGBoost）的 14 类天文瞬变源与变源分类器。基于 PLAsTiCC（LSST 测光时域分类挑战赛）数据训练，测试集准确率约 82%。
+
+---
+
+### 项目结构
+
+```
+├── software/           # 完整应用源代码
+│   ├── app.py          # Gradio 网页界面（中英双语）
+│   ├── launcher.py     # 跨平台一键启动器
+│   ├── predict.py      # 命令行推理工具
+│   ├── deliver/        # 分发包（双语版）
+│   ├── deliver_en/     # 分发包（纯英文版）
+│   ├── models/         # 全部模型文件
+│   ├── src/            # 核心代码库
+│   ├── scripts/        # 训练脚本（开发记录）
+│   └── notebooks/      # Jupyter 教程
+│
+├── docs/               # 项目文档
+│   ├── development_log_en.md   # 完整开发日志（英文）
+│   ├── development_log_zh.md   # 完整开发日志（中文）
+│   ├── project_report_en.md    # 科研报告（英文）
+│   └── project_report_zh.md    # 科研报告（中文）
+│
+└── README.md           # 本文件
+```
+
+### 快速开始
+
+```bash
+cd software
+pip install -r requirements.txt
+python launcher.py
+```
+
+启动器将自动处理依赖安装、数据集下载（可选，约 35 MB）和服务器启动。
+
+### 支持类别
+
+Ia 型、II 型、Ibc 型超新星；超亮超新星；潮汐瓦解事件；千新星；活动星系核；食双星；天琴座 RR 型变星与米拉变星；M 矮星；微透镜事件；钙富瞬变源及相关亚型。
+
+### 技术概要
+
+- **特征**：47 个统计与测光特征（全局统计、分波段、色指数、宿主星系）
+- **模型**：XGBoost（500 棵树，max_depth=10）
+- **训练**：6,040 个标注天体，类别加权损失
+- **性能**：保留测试集（1,295 个天体，14 类）上准确率 81.9%，宏观平均 F1 76.0%
+
+### 作者
+
+**Daisy Shang, NullTemp** — 2026
+
+本项目在 DeepSeek 的辅助下完成开发。
+
+### 许可证
+
+MIT
