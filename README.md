@@ -71,7 +71,7 @@ Type Ia, II, Ibc supernovae; superluminous supernovae; tidal disruption events; 
 
 **Daisy Shang, NullTemp** — 2026
 
-Developed with assistance from DeepSeek.
+*Developed with assistance from DeepSeek.*
 
 ## License
 
@@ -155,7 +155,7 @@ python launcher.py
 
 **Daisy Shang, NullTemp** — 2026
 
-本项目在 DeepSeek 的辅助下完成开发。
+*本项目在 DeepSeek 的辅助下完成开发*
 
 ## 许可证
 
