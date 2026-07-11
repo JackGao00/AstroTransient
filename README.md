@@ -2,7 +2,7 @@
 
 **Astronomical Transient Classification via Light Curve Analysis**
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 A 14-class astronomical transient and variable source classifier based on gradient-boosted decision trees (XGBoost). Trained on PLAsTiCC (Photometric LSST Astronomical Time-series Classification Challenge) data, achieving ~82% accuracy on the test set.
 
@@ -75,7 +75,7 @@ Developed with assistance from DeepSeek.
 
 ## License
 
-MIT
+This work is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). You may freely share and adapt this work for non-commercial purposes, provided you give appropriate credit and distribute your contributions under the same license.
 
 
 ---
@@ -159,4 +159,4 @@ python launcher.py
 
 ## 许可证
 
-MIT
+本项目采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议。允许自由分享与改编，但仅限于非商业用途，使用时须注明出处，且衍生作品须以相同方式共享。

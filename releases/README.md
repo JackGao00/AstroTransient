@@ -86,7 +86,7 @@ Built by Daisy Shang and NullTemp (2026), with assistance from DeepSeek.
 
 ### License
 
-MIT
+This work is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 
 ---
@@ -177,4 +177,4 @@ CSV 文件需包含以下列：
 
 ### 许可证
 
-MIT
+本项目采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议。
