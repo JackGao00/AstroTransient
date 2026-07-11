@@ -12,7 +12,7 @@ A 14-class astronomical transient and variable source classifier based on gradie
 
 Pre-packaged ZIP files ready to use:
 
-- **[deliver.zip](releases/deliver.zip)** (7.2 MB) — Bilingual edition (English / 中文)
+- **[deliver.zip](releases/deliver.zip)** (7.2 MB) — Bilingual edition (English / Chinese)
 - **[deliver_en.zip](releases/deliver_en.zip)** (34.5 MB) — English-only edition
 
 > See the [included README](releases/README.md) for usage instructions.

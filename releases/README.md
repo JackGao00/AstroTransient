@@ -80,7 +80,7 @@ The classifier extracts 47 statistical and photometric features from each light 
 
 ### Authors
 
-Built by Daisy Shang and Nnll_Temp (2026), with assistance from DeepSeek.
+Built by Daisy Shang and NullTemp (2026), with assistance from DeepSeek.
 
 ---
 
@@ -171,7 +171,7 @@ CSV 文件需包含以下列：
 
 ### 作者
 
-本项目由 Daisy Shang 与 Nnll_Temp 于 2026 年构建，DeepSeek 辅助完成。
+本项目由 Daisy Shang 与 NullTemp 于 2026 年构建，DeepSeek 辅助完成。
 
 ---
 
