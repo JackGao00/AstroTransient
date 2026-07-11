@@ -8,27 +8,40 @@ A 14-class astronomical transient and variable source classifier based on gradie
 
 ---
 
+## Download
+
+Pre-packaged ZIP files ready to use:
+
+- **[deliver.zip](releases/deliver.zip)** (7.2 MB) — Bilingual edition (English / 中文)
+- **[deliver_en.zip](releases/deliver_en.zip)** (34.5 MB) — English-only edition
+
+---
+
 ## Repository Structure
 
 ```
-├── software/           # Complete application source code
-│   ├── app.py          # Gradio web GUI (bilingual EN/ZH)
-│   ├── launcher.py     # Cross-platform one-click launcher
-│   ├── predict.py      # CLI inference tool
-│   ├── deliver/        # Distribution package (bilingual)
-│   ├── deliver_en/     # Distribution package (English only)
-│   ├── models/         # All trained model files
-│   ├── src/            # Core library
-│   ├── scripts/        # Training scripts (development history)
-│   └── notebooks/      # Jupyter tutorials
+├── software/                    # Complete application source code
+│   ├── app.py                   # Gradio web GUI (bilingual EN/ZH)
+│   ├── launcher.py              # Cross-platform one-click launcher
+│   ├── predict.py               # CLI inference tool
+│   ├── deliver/                 # [Distribution package (bilingual)](software/deliver)
+│   ├── deliver_en/              # [Distribution package (English only)](software/deliver_en)
+│   ├── models/                  # All trained model files
+│   ├── src/                     # Core library
+│   ├── scripts/                 # Training scripts (development history)
+│   └── notebooks/               # Jupyter tutorials
 │
-├── docs/               # Project documentation
-│   ├── development_log_en.md   # Full development log (EN)
-│   ├── development_log_zh.md   # Full development log (ZH)
-│   ├── project_report_en.md    # Research report (EN)
-│   └── project_report_zh.md    # Research report (ZH)
+├── docs/                        # Project documentation
+│   ├── [development_log_en.md](docs/development_log_en.md)  # Full development log (EN)
+│   ├── [development_log_zh.md](docs/development_log_zh.md)  # Full development log (ZH)
+│   ├── [project_report_en.md](docs/project_report_en.md)    # Research report (EN)
+│   └── [project_report_zh.md](docs/project_report_zh.md)    # Research report (ZH)
 │
-└── README.md           # This file
+├── releases/                    # Downloadable ZIP packages
+│   ├── [deliver.zip](releases/deliver.zip)
+│   └── [deliver_en.zip](releases/deliver_en.zip)
+│
+└── README.md                    # This file
 ```
 
 ## Quick Start
@@ -73,6 +86,17 @@ MIT
 
 AstroTransient 是一个基于梯度提升决策树（XGBoost）的 14 类天文瞬变源与变源分类器。基于 PLAsTiCC（LSST 测光时域分类挑战赛）数据训练，测试集准确率约 82%。
 
+---
+
+### 下载
+
+预打包的 ZIP 文件，解压即用：
+
+- **[deliver.zip](releases/deliver.zip)**（7.2 MB）— 中英双语版
+- **[deliver_en.zip](releases/deliver_en.zip)**（34.5 MB）— 纯英文版
+
+---
+
 **支持类别**：Ia 型、II 型、Ibc 型超新星；超亮超新星；潮汐瓦解事件；千新星；活动星系核；食双星；天琴座 RR 型变星与米拉变星；M 矮星；微透镜事件；钙富瞬变源及相关亚型。
 
 ---
@@ -80,24 +104,28 @@ AstroTransient 是一个基于梯度提升决策树（XGBoost）的 14 类天文
 ## 项目结构
 
 ```
-├── software/           # 完整应用源代码
-│   ├── app.py          # Gradio 网页界面（中英双语）
-│   ├── launcher.py     # 跨平台一键启动器
-│   ├── predict.py      # 命令行推理工具
-│   ├── deliver/        # 分发包（双语版）
-│   ├── deliver_en/     # 分发包（纯英文版）
-│   ├── models/         # 全部模型文件
-│   ├── src/            # 核心代码库
-│   ├── scripts/        # 训练脚本（开发记录）
-│   └── notebooks/      # Jupyter 教程
+├── software/                    # 完整应用源代码
+│   ├── app.py                   # Gradio 网页界面（中英双语）
+│   ├── launcher.py              # 跨平台一键启动器
+│   ├── predict.py               # 命令行推理工具
+│   ├── deliver/                 # [分发包（双语版）](software/deliver)
+│   ├── deliver_en/              # [分发包（纯英文版）](software/deliver_en)
+│   ├── models/                  # 全部模型文件
+│   ├── src/                     # 核心代码库
+│   ├── scripts/                 # 训练脚本（开发记录）
+│   └── notebooks/               # Jupyter 教程
 │
-├── docs/               # 项目文档
-│   ├── development_log_en.md   # 完整开发日志（英文）
-│   ├── development_log_zh.md   # 完整开发日志（中文）
-│   ├── project_report_en.md    # 科研报告（英文）
-│   └── project_report_zh.md    # 科研报告（中文）
+├── docs/                        # 项目文档
+│   ├── [development_log_en.md](docs/development_log_en.md)  # 完整开发日志（英文）
+│   ├── [development_log_zh.md](docs/development_log_zh.md)  # 完整开发日志（中文）
+│   ├── [project_report_en.md](docs/project_report_en.md)    # 科研报告（英文）
+│   └── [project_report_zh.md](docs/project_report_zh.md)    # 科研报告（中文）
 │
-└── README.md           # 本文件
+├── releases/                    # 可下载的 ZIP 包
+│   ├── [deliver.zip](releases/deliver.zip)
+│   └── [deliver_en.zip](releases/deliver_en.zip)
+│
+└── README.md                    # 本文件
 ```
 
 ## 快速开始
