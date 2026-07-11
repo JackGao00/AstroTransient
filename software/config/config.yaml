@@ -1,0 +1,38 @@
+# AstroTransient 配置文件
+
+data:
+  # PLAsTiCC 数据集 (HuggingFace)
+  plasticc:
+    repo: "BrachioLab/PLAsTiCC"
+    local_path: "data/raw/plasticc"
+  # MANTRA 数据集
+  mantra:
+    repo: "https://github.com/MachineLearningUniandes/MANTRA"
+    local_path: "data/raw/mantra"
+
+model:
+  name: "lstm_transient_classifier"
+  # 输入参数
+  sequence_length: 100        # 光变曲线点数
+  num_features: 6             # mjd, flux, flux_err, passband, detected, ra, dec
+  # 架构
+  hidden_size: 128
+  num_layers: 2
+  dropout: 0.3
+  # 训练
+  batch_size: 256
+  learning_rate: 0.001
+  epochs: 50
+  early_stopping_patience: 10
+  # 输出：18 类天体
+  num_classes: 18
+
+review:
+  # 人工复核：置信度低于此阈值则标记
+  confidence_threshold: 0.6
+  # 每轮最多复核样本数
+  max_samples_per_round: 100
+
+paths:
+  models_dir: "models"
+  logs_dir: "logs"
