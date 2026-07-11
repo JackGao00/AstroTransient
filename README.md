@@ -15,6 +15,8 @@ Pre-packaged ZIP files ready to use:
 - **[deliver.zip](releases/deliver.zip)** (7.2 MB) — Bilingual edition (English / 中文)
 - **[deliver_en.zip](releases/deliver_en.zip)** (34.5 MB) — English-only edition
 
+> See the [included README](releases/README.md) for usage instructions.
+
 ---
 
 ## Repository Structure
@@ -94,6 +96,8 @@ AstroTransient 是一个基于梯度提升决策树（XGBoost）的 14 类天文
 
 - **[deliver.zip](releases/deliver.zip)**（7.2 MB）— 中英双语版
 - **[deliver_en.zip](releases/deliver_en.zip)**（34.5 MB）— 纯英文版
+
+> 使用说明请查看 [附带的 README](releases/README.md)。
 
 ---
 
